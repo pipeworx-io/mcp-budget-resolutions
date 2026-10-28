@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-budget-resolutions",
+  "version": "0.1.0",
+  "description": "budget-resolutions: adopted congressional budget-resolution targets (concurrent resolutions on the budget, H.Con.Res. / S.Con.Res.) beside U.S. Treasury actuals.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-budget-resolutions": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "budget-resolutions"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-budget-resolutions.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-5f89c7fbda659cea45684ef8b277b21fc516458992a2946fffe2f8055d88be27",
+    "sourceCommit": "f54ad77e789f27fe393978f9c080b5b18c87bb4f"
+  }
+}

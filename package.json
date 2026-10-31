@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-budget-resolutions",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "budget-resolutions: adopted congressional budget-resolution targets (concurrent resolutions on the budget, H.Con.Res. / S.Con.Res.) beside U.S. Treasury actuals.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "budget-resolutions",
     "gatewaySlug": "budget-resolutions",
-    "sourceHash": "v1-53b636339e8baac94709d7b7a6b99a968fd1c582fe9438c77f37b47e81b712d0",
-    "sourceCommit": "305e2cd138cb71158e9c1e664ea0e6739bd40801"
+    "sourceHash": "v1-89addbd1c1fa5249f7b45f0220fc19459b12f2984cea37ad572016d213f34e13",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
